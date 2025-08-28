@@ -1,0 +1,27 @@
+{
+  "name": "playwright-ts-project",
+  "version": "1.0.0",
+  "description": "End-to-end test automation for Google Sheets TODAY() function",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "install:browsers": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.0.0",
+    "@types/pino": "^7.0.4",
+    "pino-pretty": "^13.1.1",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "pino": "^9.9.0"
+  }
+}
